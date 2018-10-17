@@ -20,4 +20,5 @@ Learning goals from attendees point of view :
 - practice MicroPython in interactive mode and using script files;
 - connect and read sensors using MicroPython;
 - practice with some MicroPython scientific modules to process sensor data;
-- publish sensor data on local web server or IoT Cloud.
+- publish sensor data on local web server;
+- practice LoRa, with many nodes sending data to a LoRa-MAC gateway.
