@@ -18,7 +18,7 @@ print('listening on', addr)
 while True:
     cl, addr = s.accept()
     print('client connected from', addr)
-    cl_file = cl.makefile('rwb', 0)
+    cl_file = cl.makefile('rb', 0)
     while True:
         line = cl_file.readline()
         if not line or line == b'\r\n':
